@@ -23,8 +23,9 @@ public class ConversorApp {
                     1) Convertir dolares (USD) a euros (EUR)
                     2) Convertir dolares (USD) a pesos mexicanos (MXN)
                     3) Convertir euros (EUR) a libras esterlinas (GBP)
-                    4) Convertir entre dos monedas cualesquiera (manual)
-                    5) Salir
+                    4) Convertir soles (PEN) a reales brasileros (BRL)
+                    5) Convertir entre dos monedas cualesquiera (manual)
+                    6) Salir
                     =======================================================
                     """);
             System.out.print("Elige una opción: ");
