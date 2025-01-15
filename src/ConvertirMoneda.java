@@ -14,8 +14,8 @@ public class ConvertirMoneda {
                     "Moneda no soportada o no encontrada en las tasas de conversión."
             );
         }
-        double rateFrom = conversion_rates.get(from);  // Tasa de 'from'
-        double rateTo   = conversion_rates.get(to);    // Tasa de 'to'
+        double tasaDeOrigen = conversion_rates.get(origen);  // Tasa de 'origen'
+        double tasaDeDestino   = conversion_rates.get(destino);    // Tasa de 'destino'
 
         // Implemento de formula general
         double camtidadEnDolares = cantidad / rateFrom;
