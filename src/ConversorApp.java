@@ -86,7 +86,7 @@ public class ConversorApp {
                     }
                     break;
 
-                case 5:
+                case 6:
                     salir = true;
                     System.out.println("Saliendo del programa. ¡Hasta luego!");
                     break;
