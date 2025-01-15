@@ -1,7 +1,7 @@
 import java.util.Map;
 
 public class ConvertirMoneda {
-    private Map<String, Double> conversion_rates;
+    private final Map<String, Double> conversion_rates;
 
     public ConvertirMoneda(Moneda moneda) {
         this.conversion_rates = moneda.conversion_rates();
