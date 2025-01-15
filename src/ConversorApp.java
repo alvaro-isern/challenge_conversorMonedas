@@ -58,7 +58,7 @@ public class ConversorApp {
                     System.out.print("Ingresa la cantidad en EUR (euros): ");
                     double cantidadEnEuros = Double.parseDouble(sc.nextLine());
                     double resultadoEnLibrasEsterlinas = convertir.convierte("EUR", "GBP", cantidadEnEuros);
-                    System.out.println("* " + cantidadEnEuros + " EUR equivalen a " + resultadoEnLibrasEsterlinas + " GBP +");
+                    System.out.println("* " + cantidadEnEuros + " EUR equivalen a " + resultadoEnLibrasEsterlinas + " GBP *");
                     break;
 
                 case 4:
