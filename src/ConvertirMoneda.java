@@ -7,7 +7,7 @@ public class ConvertirMoneda {
         this.conversion_rates = moneda.conversion_rates();
     }
 
-    public double convierte(String from, String to, double cantidad) {
+    public double convierte(String origen, String destino, double cantidad) {
         // Verificar que ambas monedas existan
         if (!conversion_rates.containsKey(from) || !conversion_rates.containsKey(to)) {
             throw new IllegalArgumentException(
