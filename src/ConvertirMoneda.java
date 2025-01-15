@@ -9,7 +9,7 @@ public class ConvertirMoneda {
 
     public double convierte(String origen, String destino, double cantidad) {
         // Verificar que ambas monedas existan
-        if (!conversion_rates.containsKey(from) || !conversion_rates.containsKey(to)) {
+        if (!conversion_rates.containsKey(origen) || !conversion_rates.containsKey(destino)) {
             throw new IllegalArgumentException(
                     "Moneda no soportada o no encontrada en las tasas de conversión."
             );
