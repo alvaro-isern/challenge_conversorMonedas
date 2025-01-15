@@ -14,12 +14,11 @@ public class ConvertirMoneda {
                     "Moneda no soportada o no encontrada en las tasas de conversión."
             );
         }
-        double tasaDeOrigen = conversion_rates.get(origen);
+
         double tasaDeDestino   = conversion_rates.get(destino);
 
         // Implemento de formula general
-        double camtidadEnDolares = cantidad / tasaDeOrigen;
-        return camtidadEnDolares * tasaDeDestino;
+        return cantidad * tasaDeDestino;
     }
 
 }
