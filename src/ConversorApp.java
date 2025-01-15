@@ -96,7 +96,6 @@ public class ConversorApp {
                     System.out.println("Opción inválida. Intenta de nuevo.");
             }
         }
-
         sc.close();
     }
 }
