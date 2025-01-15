@@ -18,8 +18,8 @@ public class ConvertirMoneda {
         double tasaDeDestino   = conversion_rates.get(destino);    // Tasa de 'destino'
 
         // Implemento de formula general
-        double camtidadEnDolares = cantidad / rateFrom;
-        return camtidadEnDolares * rateTo;
+        double camtidadEnDolares = cantidad / tasaDeOrigen;
+        return camtidadEnDolares * tasaDeDestino;
     }
 
 }
