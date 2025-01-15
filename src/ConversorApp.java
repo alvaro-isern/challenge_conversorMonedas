@@ -62,6 +62,13 @@ public class ConversorApp {
                     break;
 
                 case 4:
+                    System.out.print("Ingresa la cantidad en PEN (soles): ");
+                    double cantidadEnSoles = Double.parseDouble(sc.nextLine());
+                    double resultadoEnRealesBrasileros = convertir.convierte("PEN", "BRL", cantidadEnSoles);
+                    System.out.println("* " + cantidadEnSoles + " PEN equivalen a " + resultadoEnRealesBrasileros + " BRL *");
+                    break;
+
+                case 5:
                     System.out.print("Ingresa la moneda de origen (ej. USD): ");
                     String from = sc.nextLine().toUpperCase().trim();
 
