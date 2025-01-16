@@ -78,7 +78,7 @@ public class ConversorApp {
                         System.out.print("Ingresa la moneda de destino (ej. MXN): ");
                         String to = sc.nextLine().toUpperCase().trim();
 
-                        System.out.print("Ingresa la cantidadOrigen a convertir: ");
+                        System.out.print("Ingresa la cantidad a convertir: ");
                         cantidadOrigen = Double.parseDouble(sc.nextLine());
 
                         cantidadDestino = convertir.convierte(from, to, cantidadOrigen);
