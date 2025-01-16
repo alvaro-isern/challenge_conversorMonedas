@@ -64,7 +64,7 @@ Algunas posibles mejoras que podrían añadirse en el futuro incluyen:
 
 ### Capturas
 
-![image](https://github.com/user-attachments/assets/abf8e4d0-e253-4f9b-9963-084ef641a181)
+![image](https://github.com/user-attachments/assets/abf8e4d0-e253-4f9b-9963-084ef641a181)<br>
 ![image](https://github.com/user-attachments/assets/76038dcb-b8d5-4931-8215-c5c23f0ca468)
 
 ---
