@@ -73,4 +73,54 @@ Algunas posibles mejoras que podrían añadirse en el futuro incluyen:
 Para **clonar** o **descargar** este repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/conversor-moneda.git
+git clone https://github.com/alvaro-isern/challenge_conversorMonedas.git
+```
+1. **Abre el proyecto** en tu IDE favorito (Eclipse, IntelliJ, NetBeans, etc.).
+2. **Asegúrate** de contar con **Java 17**.
+3. **Incluye** la dependencia de **Gson**.
+4. **Compila** y ejecuta la clase principal `ConversorApp`.
+
+---
+
+## Tecnologías Utilizadas
+- **Java 17**  
+  - Clases `HttpClient`, `HttpRequest`, `HttpResponse` y `Map`
+- **Gson**  
+  - Manejo de estructuras JSON
+
+---
+
+## Personas Contribuyentes
+Agradecimientos especiales a quienes han aportado al desarrollo:
+
+- [@usuario1](https://github.com/usuario1) – Mejora en la lógica de conversión  
+- [@usuario2](https://github.com/usuario2) – Integración con la API  
+
+*(Actualiza según tu lista real de contribuyentes.)*
+
+---
+
+## Personas-Desarrolladores del Proyecto
+- **Tu Nombre** (Desarrollador Principal)  
+  - [LinkedIn](https://www.linkedin.com/in/tu-profile)  
+  - [GitHub](https://github.com/tu-usuario)  
+  - *Email:* tu-email@dominio.com  
+
+*(Agrega aquí al resto de desarrolladores si aplica.)*
+
+---
+
+## Licencia
+Este proyecto está disponible bajo la [MIT License](LICENSE).  
+Consulta el archivo `LICENSE` para más detalles.
+
+---
+
+## Conclusión
+El **Conversor de Moneda** sirve como ejemplo práctico de cómo integrar distintas herramientas de Java (POO, `HttpClient`, `Gson`) junto con una API REST, para lograr conversiones de moneda en tiempo real. Su diseño modular y sencillo promueve la fácil ampliación de funcionalidades y la colaboración.
+
+**¡Gracias por tu interés y por visitar este proyecto!**
+
+
+¡Gracias por tu interés y por visitar este proyecto!
+
