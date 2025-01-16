@@ -90,29 +90,11 @@ git clone https://github.com/alvaro-isern/challenge_conversorMonedas.git
 
 ---
 
-## Personas Contribuyentes
-Agradecimientos especiales a quienes han aportado al desarrollo:
-
-- [@usuario1](https://github.com/usuario1) – Mejora en la lógica de conversión  
-- [@usuario2](https://github.com/usuario2) – Integración con la API  
-
-*(Actualiza según tu lista real de contribuyentes.)*
-
----
-
 ## Personas-Desarrolladores del Proyecto
-- **Tu Nombre** (Desarrollador Principal)  
-  - [LinkedIn](https://www.linkedin.com/in/tu-profile)  
-  - [GitHub](https://github.com/tu-usuario)  
-  - *Email:* tu-email@dominio.com  
-
-*(Agrega aquí al resto de desarrolladores si aplica.)*
-
----
-
-## Licencia
-Este proyecto está disponible bajo la [MIT License](LICENSE).  
-Consulta el archivo `LICENSE` para más detalles.
+- **Alvaro Isern** (Desarrollador Principal)  
+  - [LinkedIn](www.linkedin.com/in/alvaro-isern-904808315)  
+  - [GitHub](https://github.com/alvaro-isern)  
+  - *Email:* <sss12345iiialvaro@gmail.com>
 
 ---
 
@@ -120,7 +102,3 @@ Consulta el archivo `LICENSE` para más detalles.
 El **Conversor de Moneda** sirve como ejemplo práctico de cómo integrar distintas herramientas de Java (POO, `HttpClient`, `Gson`) junto con una API REST, para lograr conversiones de moneda en tiempo real. Su diseño modular y sencillo promueve la fácil ampliación de funcionalidades y la colaboración.
 
 **¡Gracias por tu interés y por visitar este proyecto!**
-
-
-¡Gracias por tu interés y por visitar este proyecto!
-
