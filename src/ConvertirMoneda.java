@@ -15,7 +15,7 @@ public class ConvertirMoneda {
             );
         }
 
-        double tasaDeDestino   = conversion_rates.get(destino);
+        double tasaDeDestino = conversion_rates.get(destino);
 
         // Implemento de formula general
         return cantidad * tasaDeDestino;

@@ -9,7 +9,7 @@ import java.net.http.HttpResponse;
 public class ConsultarMoneda {
     public Moneda obtenieneTipoDeCambio(String codigoBase) {
 
-    URI direccion = URI.create("https://v6.exchangerate-api.com/v6/05a91bed6efdf297a69f06cc/latest/" + codigoBase);
+        URI direccion = URI.create("https://v6.exchangerate-api.com/v6/05a91bed6efdf297a69f06cc/latest/" + codigoBase);
 
 
         HttpClient client = HttpClient.newHttpClient();
